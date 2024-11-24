@@ -1,0 +1,135 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  /* padding: 2rem; */
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  /* padding: 1.5em; */
+  padding-top: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.background-popup{
+  width: 320px;
+  min-height: 300px;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.home-label{
+  font-size:x-large;
+  font-weight: 900;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.api-key-input{
+  height: 2em;
+  margin-top: 5px;
+  width: 300px;
+  border-radius: 0.5em;
+  font-size: medium;
+}
+
+.api-key-label{
+  margin-top: 15px;
+  font-size: medium;
+  color: aliceblue;
+  text-align: left;
+}
+
+
+.form-inputs{
+  flex-direction: column;
+  display: flex;
+}
+
+/* Container styling */
+.form-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 400px;       /* Adjust max width if needed */
+  margin: 0 auto;         /* Center the form on the page */
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Label styling */
+.form-container label {
+  margin-bottom: 8px;
+  font-size: 14px;
+  text-align: left;        /* Left-align the label */
+}
+
+/* Input field styling */
+.form-container input {
+  width: 100%;             /* Full-width input */
+  padding: 10px;
+  margin-bottom: 16px;     /* Space below the input */
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  box-sizing: border-box;  /* Include padding in width */
+}
+
+/* Button styling */
+.save-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;  /* Blue color for the button */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  align-self: center;        /* Center-align the button */
+  width: 100px;
+}
+
+/* Button hover effect */
+.save-button:hover {
+  background-color: #0056b3;
+}
+
+.saved-label{
+  padding: 10px 20px;
+  font-size: 16px;
+  color: rgb(41, 221, 131);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  align-self: center;        /* Center-align the button */
+  width: 100%;
+}

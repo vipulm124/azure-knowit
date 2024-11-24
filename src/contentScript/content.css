@@ -1,0 +1,87 @@
+.chat-icon-div{
+    position: fixed;
+    bottom: 10%;
+    right:5%;
+}
+
+.chat-icon-div:hover{
+    cursor: pointer;
+    /* box-shadow: darkblue; */
+    /* filter: drop-shadow(5em 5em 5em #f90000aa); */
+    box-shadow: 0px 10px 25px rgba(201, 11, 11, 0.3); /* Horizontal offset, vertical offset, blur radius, color */
+    /* transform: translateY(-5px);  */
+
+}
+
+.azure-color{
+    color: #0178d4;
+}
+
+.font-sync{
+    font-size: large;
+    font-weight: 600;
+    padding-left: 10px;
+    cursor: pointer;
+
+}
+
+.chat-box-div{
+    position: fixed;
+    bottom: 15%;
+    right:5%;
+    min-height: 70%;
+    min-width: 25%;
+    background-color: rgb(63, 61, 61);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat-box-div-box{
+   position: absolute;
+    border: 1px solid white;
+    top:25px;
+    bottom:15px;
+    left:15px;
+    right:15px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    overflow: auto;
+    padding: 15px;
+
+}
+
+.chat-close-icon{
+    position: absolute;
+    right:3px;
+    top:1px;
+    cursor: pointer;
+}
+
+@keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+
+.loader{
+    position: fixed;
+    bottom: 25%;
+    right:10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid #f3f3f3;
+
+    border-top: 4px solid #3498db;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+
+}
